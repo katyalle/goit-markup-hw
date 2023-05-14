@@ -5,7 +5,7 @@
 }
 .header-link{
     
-font-family: 'Roboto';
+font-family: 'Roboto', s;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -18,7 +18,7 @@ color: #2E2F42;
 }
 .header-logo{
     
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif; 
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
