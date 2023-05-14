@@ -192,7 +192,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
     }
     .footer-logo{
-        font-family: 'Raleway', s;
+        font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -226,7 +226,9 @@ text-transform: uppercase;
 color: #F4F4FD;
     }
 
-
+.list{
+    list-style: none;
+}
 
 
 
