@@ -1,0 +1,283 @@
+.body{
+    font-family:"Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+.header-link{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+.header-logo{
+    
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* IRIS */
+
+color: #4D5AE5;
+}
+.header-logo-second{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17px;
+
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+.header-link2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.header-list{
+    list-style: none;
+}
+.header-list-second{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.benefit{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07px;
+    letter-spacing: 0.02em;
+    
+    /* WHITE */
+    
+    color: #ffffff;
+}
+.btn{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+/* WHITE */
+
+color: #FFFFFF;
+}
+.hero-benefit{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2px;
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+.hero-list{
+    list-style: none;
+}
+.hero-p{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.hero-benefit-third{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11px;
+    /* identical to box height, or 111% */
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;}
+    .ot-benefit{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11px;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+    }
+    .ot-benefits{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2px;
+/* identical to box height, or 120% */
+text-align: center;
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+    }
+
+    .ot-p{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+    }
+    .footer-p{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5px;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* CLOUD */
+
+color: #F4F4FD;
+    }
+    .footer-logo{
+        font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* IRIS */
+
+color: #4D5AE5;
+    }
+    .footer-logo-second{
+        font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* CLOUD */
+
+color: #F4F4FD;
+    }
+
+
+
+
+
+
+
+    .portfolio-btn:hover{
+        
+color: #FFFFFF;
+
+    }
+    .portfolio-btn:focus{
+        color: #FFFFFF;
+    }
+    .portfolio-btn{
+        font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5px;
+/* identical to box height, or 150% */
+letter-spacing: 0.04em;
+
+/* IRIS */
+
+color: #4D5AE5;
+    }
+    .portfolio-benefits{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+    }
+    .portfolio-p{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+    }
