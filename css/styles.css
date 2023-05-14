@@ -192,7 +192,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
     }
     .footer-logo{
-        font-family: 'Raleway';
+        font-family: 'Raleway', s;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -209,11 +209,11 @@ text-transform: uppercase;
 color: #4D5AE5;
     }
     .footer-logo-second{
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17px;
 /* identical to box height, or 117% */
 
 display: flex;
