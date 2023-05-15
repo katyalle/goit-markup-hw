@@ -1,11 +1,15 @@
 .body{
     font-family:"Roboto", sans-serif;
-    color: #2E2F42;
+    color:#434455;
     background-color: #FFFFFF;
+   
+}
+:root{
+--background-color:#2E2F42;
 }
 .header-link{
     
-font-family: 'Roboto', s;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -69,33 +73,40 @@ color: #434455;
 .link{
     text-decoration: none;
 }
+.advice{
+    background-color: var(--background-color);
+
+    width: 1440px;
+    height: 600px;
+    left: 12px;
+    top: 72px;
+
+}
 .benefit{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07px;
-    letter-spacing: 0.02em;
-    
-    /* WHITE */
-    
+    letter-spacing: 0.02em; 
     color: #ffffff;
 }
 .btn{
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
-
-display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-
-/* WHITE */
-
 color: #FFFFFF;
+background-color: #4D5AE5;
+}
+.btn:hover{
+background-color: #4D5AE5;
+}
+.btn:focus{
+    background-color: #4D5AE5;
 }
 .hero-benefit{
     font-family: 'Roboto';
@@ -135,7 +146,8 @@ color: #434455;
     
     color: #2E2F42;}
     .ot-benefit{
-        font-family: 'Roboto';
+        
+                font-family:'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -164,6 +176,7 @@ letter-spacing: 0.02em;
 /* NAVY BLUE */
 
 color: #2E2F42;
+
     }
 
     .ot-p{
