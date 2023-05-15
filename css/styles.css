@@ -20,7 +20,7 @@ font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--background-color);
 }
@@ -36,21 +36,20 @@ color: var(--background-color);
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
-/* identical to box height, or 117% */
-
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--color-nb);
 }
+
 .header-logo-second{
     font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.17px;
+line-height: 1.17;
 
 
 display: flex;
@@ -64,7 +63,7 @@ color:var(--background-color);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
@@ -90,7 +89,7 @@ color: #434455;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07px;
+    line-height: 1.07;
     letter-spacing: 0.02em; 
     color: #ffffff;
     text-align: center
@@ -100,7 +99,7 @@ font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
@@ -118,7 +117,7 @@ background-color: #4D5AE5;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2px;
+line-height: 1.2;
 
 letter-spacing: 0.02em;
 color: var(--background-color);
@@ -131,7 +130,7 @@ color: var(--background-color);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
@@ -140,12 +139,8 @@ color: #434455;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11px;
-    /* identical to box height, or 111% */
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    
-    /* NAVY BLUE */
-    
     color: #2E2F42;}
     .ot-benefit{
         
@@ -153,15 +148,10 @@ color: #434455;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11px;
-/* identical to box height, or 111% */
-
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-
-/* NAVY BLUE */
-
 color: #2E2F42;
 
     }
@@ -170,13 +160,10 @@ color: #2E2F42;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2px;
-/* identical to box height, or 120% */
+line-height: 1.2;
+
 text-align: center;
 letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
 color: #2E2F42;
 
     }
@@ -186,24 +173,19 @@ color: #2E2F42;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.5px;
-/* identical to box height, or 150% */
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
     }
+
     .footer-p{
         font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.5px;
-/* or 150% */
-
+line-height: 1.5;
 letter-spacing: 0.02em;
-
-/* CLOUD */
-
 color: #F4F4FD;
     }
     .footer-logo{
@@ -211,16 +193,11 @@ color: #F4F4FD;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.17px;
-/* identical to box height, or 117% */
-
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-/* IRIS */
-
 color: #4D5AE5;
     }
     .footer-logo-second{
@@ -228,16 +205,11 @@ color: #4D5AE5;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.17px;
-/* identical to box height, or 117% */
-
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-/* CLOUD */
-
 color: #F4F4FD;
     }
 
@@ -262,12 +234,8 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.5px;
-/* identical to box height, or 150% */
+line-height: 1.5;
 letter-spacing: 0.04em;
-
-/* IRIS */
-
 color: #4D5AE5;
     }
     .portfolio-benefits{
@@ -275,13 +243,8 @@ color: #4D5AE5;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2px;
-/* identical to box height, or 120% */
-
+line-height: 1.2;
 letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
 color: #2E2F42;
     }
     .portfolio-p{
@@ -289,12 +252,7 @@ color: #2E2F42;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.5px;
-/* identical to box height, or 150% */
-
+line-height: 1.5;
 letter-spacing: 0.02em;
-
-/* SLATE */
-
 color: #434455;
     }
