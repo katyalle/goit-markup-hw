@@ -233,22 +233,24 @@ color: #F4F4FD;
 
 
     .portfolio-btn:hover{
-        
-color: #FFFFFF;
-
+       color: var(--color-button-white); 
+       background-color: var(--color-ocean);
     }
     .portfolio-btn:focus{
-        color: #FFFFFF;
+       color: var(--color-button-white);
+       background-color: var(--color-ocean);
     }
     .portfolio-btn{
-        font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #4D5AE5;
-    }
+color:var(--color-nb);
+background-color: var(#F4F4FD);
+cursor: pointer;
+ }
     .portfolio-benefits{
         font-family: 'Roboto';
 font-style: normal;
