@@ -1,15 +1,19 @@
-.body{
-    font-family:"Roboto", sans-serif;
-    color:#434455;
-    background-color: #FFFFFF;
-   
-}
-:root{
---background-color:#2E2F42;
---color-button-white:#FFFFFF;
---color-nb:#4D5AE5;
 
+:root{
+    --background-color:#2E2F42;
+    --color-button-white:#FFFFFF;
+    --color-nb:#4D5AE5;
+    --color-b:#434455;}
+
+.body{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Roboto", sans-serif;
+    color:var(--color-b);
+    background-color: var(--color-button-white);  
+    line-height: 2;
 }
+
 .header-link{
     
 font-family: 'Roboto', sans-serif;
