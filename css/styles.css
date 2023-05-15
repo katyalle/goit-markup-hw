@@ -29,10 +29,10 @@ letter-spacing: 0.02em;
 color: var(--background-color);
 }
 .header-link-second:hover{
-    background-color:var(--color-ocean);
+    color:var(--color-ocean);
 }
 .header-link-second:focus{
-    background-color: var(--color-ocean);
+    color: var(--color-ocean);
 }
 .header-link:hover{
    color: var(--color-ocean);
@@ -128,15 +128,15 @@ font-size: 16px;
 line-height: 1.5;
 align-items: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
 background-color: #4D5AE5;
+color: #FFFFFF;
 cursor: pointer;
 }
 .btn:hover{
-color: var(--color-ocean);
+background-color: var(--color-ocean);
 }
 .btn:focus{
-   color: var(--color-ocean); 
+ background-color: var(--color-ocean); 
 }
 .hero-benefits{
     font-family: 'Roboto';
