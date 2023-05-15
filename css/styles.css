@@ -3,7 +3,10 @@
     --background-color:#2E2F42;
     --color-button-white:#FFFFFF;
     --color-nb:#4D5AE5;
-    --color-b:#434455;}
+    --color-b:#434455;
+    --color-ocean:#404BBF;
+
+}
 
 .body{
     margin: 0px;
@@ -24,11 +27,21 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--background-color);
 }
+.header-link2:hover{
+    color:var(--color-ocean);
+}
+.header-link2:focus{
+    color: var(--color-ocean);
+}
 .header-link:hover{
-    color: var(--background-color);
+    color: var(--color-ocean);
 }
 .header-link:focus{
-    color: var(--background-color);
+    color: var(--color-ocean);
+}
+.contacts{
+    font-style: normal;
+
 }
 .header-logo{
     
