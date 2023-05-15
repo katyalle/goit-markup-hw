@@ -6,6 +6,9 @@
 }
 :root{
 --background-color:#2E2F42;
+--color-button-white:#FFFFFF;
+--color-nb:#4D5AE5;
+
 }
 .header-link{
     
@@ -15,10 +18,13 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5px;
 letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
+color: var(--background-color);
+}
+.header-link:hover{
+    color: var(--background-color);
+}
+.header-link:focus{
+    color: var(--background-color);
 }
 .header-logo{
     
@@ -33,10 +39,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-/* IRIS */
-
-color: #4D5AE5;
+color:var(--color-nb);
 }
 .header-logo-second{
     font-family: 'Raleway';
@@ -50,10 +53,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
+color:var(--background-color);
 }
 .header-link2{
     font-family: 'Roboto';
@@ -75,7 +75,6 @@ color: #434455;
 }
 .advice{
     background-color: var(--background-color);
-
     width: 1440px;
     height: 600px;
     left: 12px;
@@ -90,6 +89,7 @@ color: #434455;
     line-height: 1.07px;
     letter-spacing: 0.02em; 
     color: #ffffff;
+    text-align: center
 }
 .btn{
 font-family: 'Roboto', sans-serif;
@@ -101,6 +101,7 @@ align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: #4D5AE5;
+cursor: pointer;
 }
 .btn:hover{
 background-color: #4D5AE5;
@@ -114,12 +115,9 @@ font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2px;
-/* identical to box height, or 120% */
+
 letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
+color: var(--background-color);
 }
 .hero-list{
     list-style: none;
