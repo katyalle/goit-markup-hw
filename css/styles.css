@@ -248,9 +248,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color:var(--color-nb);
-background-color: var(#F4F4FD);
+background-color: var(--background-color-sec);
 cursor: pointer;
- }
+    }
     .portfolio-benefits{
         font-family: 'Roboto';
 font-style: normal;
